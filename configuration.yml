@@ -1,0 +1,12 @@
+database:
+  # name of JDBC driver
+  driverClass: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+  # Use windows authentication
+  integratedSecurity: true
+
+  # JDBC URL
+  url: jdbc:sqlserver://localhost
+  
+  # Database Name
+  databaseName: Drift
